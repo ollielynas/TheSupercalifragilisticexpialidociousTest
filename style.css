@@ -1,0 +1,16 @@
+
+
+body {
+    overflow: hidden;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+
+h1 > i {
+    color: rgb(62, 62, 62);
+}
