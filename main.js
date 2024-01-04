@@ -18,6 +18,10 @@ document.addEventListener("keydown", function (event) {
     if (to_to == "") {
       to_to = "supercalifragilisticexpialidocious";
       done = "";
+      start = new Date().getTime();
+    }
+    if (done == "") {
+        start = new Date().getTime();
     }
 
   if (event.key == to_to[0]) {
