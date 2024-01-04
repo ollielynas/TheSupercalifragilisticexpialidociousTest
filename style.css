@@ -7,10 +7,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.3em !important;
 }
 
 
 h1 > i {
     color: rgb(62, 62, 62);
 }
+
+h1 {
+    font-size: 2em !important;
+    text-wrap: wrap;
+}
+.content {
+    max-width: 90vw;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
